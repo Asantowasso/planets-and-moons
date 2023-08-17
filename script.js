@@ -80,4 +80,48 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     document.querySelector(".item1").innerHTML = item1;
     var item2 = obj.bodies[0].aphelion;
     document.querySelector(".item2").innerHTML = item2;
+
+    //Jupiter
+    console.log(obj.bodies[238].englishName)
+
+    console.log(obj.bodies[238].perihelion); 
+    console.log(obj.bodies[238].aphelion);
+
+    var name6 = obj.bodies[238].englishName;
+    document.querySelector(".section6").innerHTML = name6;
+    var item11 = obj.bodies[238].perihelion;
+    document.querySelector(".item11").innerHTML = item11;
+    var item12 = obj.bodies[238].aphelion;
+    document.querySelector(".item12").innerHTML = item12;
+
+    //Saturn
+    console.log(obj.bodies[241].englishName)
+
+    console.log(obj.bodies[241].perihelion); 
+    console.log(obj.bodies[241].aphelion);
+
+    var name7 = obj.bodies[241].englishName;
+    document.querySelector(".section7").innerHTML = name7;
+    var item13 = obj.bodies[241].perihelion;
+    document.querySelector(".item13").innerHTML = item13;
+    var item14 = obj.bodies[241].aphelion;
+    document.querySelector(".item14").innerHTML = item14;
+
+
+    //Uranus
+    console.log(obj.bodies[199].englishName)
+
+    console.log(obj.bodies[199].perihelion); 
+    console.log(obj.bodies[199].aphelion);
+
+
+    var name8 = obj.bodies[199].englishName;
+    document.querySelector(".section8").innerHTML = name8;
+
+    var item15 = obj.bodies[199].perihelion;
+    document.querySelector(".item15").innerHTML = item15;
+    var item16 = obj.bodies[199].aphelion;
+    document.querySelector(".item16").innerHTML = item16;
+
+    //Neptune 219
   });

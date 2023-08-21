@@ -23,7 +23,6 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     var item10 = obj.bodies[240].aphelion;
     document.querySelector(".item10").innerHTML = item10;
 
-
     //Venus
     console.log(obj.bodies[244].englishName);
 
@@ -82,9 +81,9 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     document.querySelector(".item2").innerHTML = item2;
 
     //Jupiter
-    console.log(obj.bodies[238].englishName)
+    console.log(obj.bodies[238].englishName);
 
-    console.log(obj.bodies[238].perihelion); 
+    console.log(obj.bodies[238].perihelion);
     console.log(obj.bodies[238].aphelion);
 
     var name6 = obj.bodies[238].englishName;
@@ -95,9 +94,9 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     document.querySelector(".item12").innerHTML = item12;
 
     //Saturn
-    console.log(obj.bodies[241].englishName)
+    console.log(obj.bodies[241].englishName);
 
-    console.log(obj.bodies[241].perihelion); 
+    console.log(obj.bodies[241].perihelion);
     console.log(obj.bodies[241].aphelion);
 
     var name7 = obj.bodies[241].englishName;
@@ -107,13 +106,11 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     var item14 = obj.bodies[241].aphelion;
     document.querySelector(".item14").innerHTML = item14;
 
-
     //Uranus
-    console.log(obj.bodies[199].englishName)
+    console.log(obj.bodies[199].englishName);
 
-    console.log(obj.bodies[199].perihelion); 
+    console.log(obj.bodies[199].perihelion);
     console.log(obj.bodies[199].aphelion);
-
 
     var name8 = obj.bodies[199].englishName;
     document.querySelector(".section8").innerHTML = name8;
@@ -124,4 +121,16 @@ fetch("https://api.le-systeme-solaire.net/rest/bodies/ ")
     document.querySelector(".item16").innerHTML = item16;
 
     //Neptune 219
+    console.log(obj.bodies[219].englishName);
+
+    console.log(obj.bodies[219].perihelion);
+    console.log(obj.bodies[219].aphelion);
+
+    var name9 = obj.bodies[219].englishName;
+    document.querySelector(".section9").innerHTML = name9;
+
+    var item17 = obj.bodies[219].perihelion;
+    document.querySelector(".item17").innerHTML = item17;
+    var item18 = obj.bodies[219].aphelion;
+    document.querySelector(".item18").innerHTML = item18;
   });

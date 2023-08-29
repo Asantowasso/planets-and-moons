@@ -3,5 +3,12 @@ body {
   font-family: 'Inter', serif;
   font-size: 14px;
   background-color: black;
-  color: lightblue;
+  color: #ffffff;
 }
+
+.planetdiv {
+  background-color: #14213d;
+}
+
+
+

@@ -17,6 +17,12 @@ h2 {
 .planetdiv {
   background-color: #14213d;
   padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+.planetPic {
+  height: 240px;
+  width: 280x;
 }
 
 .sidenav {
@@ -25,7 +31,7 @@ h2 {
   z-index: 1;
   top: 20px;
   left: 10px;
-  background: #eee;
+  background: #E5E5E5;
   overflow-x: hidden;
   padding: 8px 0;
 }

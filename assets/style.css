@@ -25,6 +25,11 @@ h2 {
   width: 280x;
 }
 
+.solarMap {
+  height: 900px;
+  width: 1100px;
+}
+
 .sidenav {
   width: 90px;
   position: fixed;
